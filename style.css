@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.container {
+    background-color: black;
+    font-family: "Roboto";
+}
+
+.h1 {
+    color: #ff6e30;
+    text-align: center;
+}
+
+.h2 {
+    color: #2c353d;
+    text-align: center;
+}
+
+p {
+    color: #2c353d;
+    text-align: center;
+    font-size: 10px;
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(2, 350px);
+}
+
+.card {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_modern_responsive_web_design/niat_coding_questions/pricing_plans_bg_1.jpg");
+    /*  width: 350px;
+   height: 350px; */
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.button {
+    color: white;
+    background-color: #ff6e30;
+    margin: 10px;
+    border: 0px;
+    padding: 5px;
+    border-radius: 4px;
+}
